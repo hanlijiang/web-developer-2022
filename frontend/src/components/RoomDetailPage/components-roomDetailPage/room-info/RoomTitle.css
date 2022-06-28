@@ -1,0 +1,15 @@
+.roomTitle{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.roomTitle h2{
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.roomTitle p{
+    margin: 0;
+}
+
+

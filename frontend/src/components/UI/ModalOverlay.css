@@ -1,0 +1,62 @@
+.modalOverlay {
+    position: fixed;
+    top:4%;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .sucessOverlay{
+    position: fixed;
+    top:30%;
+    left: 25%;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    padding: 1rem;   
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+    display: flex;
+    flex-direction: column;   
+    font-size: 36px;
+    border: 5px;
+  }
+  .sucessOverlay-LinkBtn{
+    bottom:10%;
+    right: 10px;
+    max-width: 200px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: rgba(118, 65, 65);
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 300; 
+    text-align: center;
+}
+.sucessOverlay-LinkBtn:hover{
+  background-color: rgba(118, 65, 65, 0.616);
+  color: black
+}
+  @media (min-width: 768px) {
+    .modalOverlay {
+      width: 77%;
+      left: 10%;
+    }
+  }
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

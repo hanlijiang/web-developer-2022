@@ -1,0 +1,17 @@
+.comfirmInfo{
+    box-sizing: border-box;
+    width: 60%;
+    background: white;
+    color: rgb(118, 65, 65);
+    padding: 0 20px;
+    font-weight: 400;
+    overflow-x: hidden;
+   
+    align-items: flex-end;
+   
+    margin-bottom: 15px;
+}
+/**
+display: flex;
+flex-direction: column;
+flex-wrap:wrap;**/

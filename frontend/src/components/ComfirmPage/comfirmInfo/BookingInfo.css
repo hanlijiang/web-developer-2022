@@ -1,0 +1,8 @@
+.roomList {
+    font-weight: 100;
+    list-style-type: disc;
+    font-size: 12px;
+    line-height: 26px;
+    margin: 12px 0;
+    padding: 10px;
+}

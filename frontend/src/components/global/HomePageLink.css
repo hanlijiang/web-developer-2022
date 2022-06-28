@@ -1,0 +1,16 @@
+.homePage-LinkBtn{
+    position: absolute;
+    z-index: 10;
+    max-width: 200px;
+    font-size: 14px;
+    letter-spacing: 1px;   
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 300; 
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

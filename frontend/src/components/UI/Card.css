@@ -1,0 +1,14 @@
+.card{  
+   display: flex;
+   flex-direction: column;
+   background-image: url("/images/bg2.jpg");
+   background-position: center;
+   background-size: cover;  
+}
+.card ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+}

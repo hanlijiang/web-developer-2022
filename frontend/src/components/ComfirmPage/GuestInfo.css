@@ -1,0 +1,76 @@
+form {
+    width: 42%;
+    box-sizing: border-box;   
+    height: 100%;
+    background:rgb(118, 65, 65);
+    padding: 20px 20px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {  
+    margin-bottom: 0.25rem; 
+  }
+  
+  .control input ,.control textarea {
+    font: inherit;
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 3px;
+    width: 40rem;
+    height: 40px;
+    max-width: 100%;
+  }
+  .control textarea{
+    height: 100px;
+  }
+  textarea::placeholder{
+    font-size: 14px;
+  }
+  .datepickerNote{
+    color: red;
+    margin-top: 0;
+
+  }
+  .guestInfo-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .guestInfo-btn button {
+    background-color: white;
+    border: none;
+    color: rgb(81, 44, 44);
+    border-radius: 3px;
+    height: 42px;
+    width: 150px;
+    font-size: large;
+  }
+  .guestInfo-btn button:hover{
+    background-color: black;
+  }
+  
+  .invalid label {
+    color: red;
+  }
+  
+  .invalid input {
+    background-color: #ffeff1;
+    border: 2px solid red;
+  }
+  
+  .guestInfo-total{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

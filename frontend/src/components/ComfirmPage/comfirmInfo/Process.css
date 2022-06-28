@@ -1,0 +1,28 @@
+.process {
+    display: flex;
+    flex-direction: column;
+    
+}
+.process-info {
+    display: flex;
+    font-size: 12px;
+}
+.process-box {
+    box-sizing: border-box;
+    width: 33%;
+    height: 150px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgb(118, 65, 65);  
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.process-box div{
+    background-color: rgb(118, 65, 65);
+    color: white;
+    text-align: center;
+}
+.process-box p{
+    padding: 3px;
+}

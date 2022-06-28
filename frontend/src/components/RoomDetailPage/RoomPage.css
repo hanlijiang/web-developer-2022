@@ -1,0 +1,9 @@
+.roomPage{
+    height: 100%;
+    display: flex;
+    font-family: "Noto Sans JP", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
